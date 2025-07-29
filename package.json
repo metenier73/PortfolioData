@@ -1,0 +1,23 @@
+{
+  "name": "portfoliodata",
+  "version": "1.0.0",
+  "description": "portfolio data engineer",
+  "homepage": "https://github.com/metenier73/PortfolioData#readme",
+  "bugs": {
+    "url": "https://github.com/metenier73/PortfolioData/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metenier73/PortfolioData.git"
+  },
+  "license": "ISC",
+  "author": "metenier",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
