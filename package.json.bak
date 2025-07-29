@@ -2,7 +2,7 @@
   "name": "portfoliodata",
   "version": "1.0.0",
   "description": "portfolio data engineer",
-  "homepage": "https://github.com/metenier73/PortfolioData#readme",
+  "homepage": "https://github.com/metenier73/PortfolioData",
   "bugs": {
     "url": "https://github.com/metenier73/PortfolioData/issues"
   },
@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npm install"
+    "predeploy": "npm run build",
+	"deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
