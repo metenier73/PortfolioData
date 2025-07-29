@@ -18,7 +18,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --dotfiles -d dist --git git --repo=.gh-pages-tmp"
+    "deploy": jekyll-gh-pages --dotfiles -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
