@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
-
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/PortfolioData/', // ou '/<nom-du-repo>/' si tu changes de repo
+  plugins: [react()],
+  base: '/PortfolioData/', // adapte selon ton repo
   // autres options...
-})
+});
